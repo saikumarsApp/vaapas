@@ -1,0 +1,39 @@
+.movie-main-heading {
+  color: white;
+}
+.search-alignment-container {
+  display: flex;
+  flex-direction: row;
+}
+.movie-search-input {
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  outline: none;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+.search-button-style {
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.dog-image-styling {
+  margin: 20px;
+  border-radius: 10px;
+}
